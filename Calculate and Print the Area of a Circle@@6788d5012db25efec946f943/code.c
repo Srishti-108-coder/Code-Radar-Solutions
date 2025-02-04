@@ -8,7 +8,7 @@ int main()
     printf(" ");
     scanf("%d",&r);
     a=PI*r*r;
-    printf("Area: %f",a);
+    printf("Area: %.2f",a);
 
     return 0;
 }
