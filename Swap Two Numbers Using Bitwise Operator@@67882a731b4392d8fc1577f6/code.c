@@ -7,6 +7,6 @@ int main()
     temp=a;
     a=b;
     b=temp;
-    printf("%d%d",a,b);
+    printf("%d\n%d",a,b);
     return 0;
 }
