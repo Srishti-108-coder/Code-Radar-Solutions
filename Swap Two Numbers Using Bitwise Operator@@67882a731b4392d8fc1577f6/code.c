@@ -7,6 +7,7 @@ int main()
     temp=a;
     a=b;
     b=temp;
-    printf("%d\n%d",a,b);
+    printf("%d\n",a);
+    printf("%d\n",b);
     return 0;
 }
