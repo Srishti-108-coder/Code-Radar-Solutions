@@ -1,12 +1,15 @@
 #include <stdio.h>
-int main()
-{
+#include <ctype.h>
+
+int main() {
     char a;
-    scanf("%c",a);
-    if(isupper(a))
-    printf("Uppercase");
-    else
-    printf("Lowercase");
+    scanf("%c", &a);
+
+    if (isupper(a)) {
+        printf("Uppercase\n");
+    } else {
+        printf("Lowercase\n");
+    }
 
     return 0;
 }
