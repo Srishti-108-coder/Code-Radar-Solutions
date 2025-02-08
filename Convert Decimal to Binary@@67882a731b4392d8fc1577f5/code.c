@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int n,q;
+    int n,r;
     scanf("%d",n);
     while(n>0)
     {
@@ -9,7 +9,7 @@ int main() {
         else
         r=n%2;
         printf("%d",r);
-        q=n/2;
+        n=n/2;
     }
     return 0;
 }
