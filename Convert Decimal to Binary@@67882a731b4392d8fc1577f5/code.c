@@ -1,18 +1,16 @@
 #include <stdio.h>
 int main() {
-    int n,r;
-    scanf("%d",&n);
-    while(n>0)
-    {
-        if(n==0)
-        return 0;
-        else if(n==1)
-        return 1;
-        else
-        r=n%2;
-        printf("%d",r);
-        n=n/2;
+    int n, r, binary[32], i = 0;
+    scanf("%d", &n);
+    while (n > 0) {
+        binary[i] = n % 2;
+        n = n / 2;
+        i++;
+    }
+    for (int j = i - 1; j >= 0; j--) {
+        printf("%d", binary[j]);
     }
     return 0;
 }
+
     
