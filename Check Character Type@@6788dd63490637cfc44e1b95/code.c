@@ -2,7 +2,7 @@
 int main()
 {
     char str;
-    scanf("%s",&a);
+    scanf("%c",&a);
     if(str==a || str==e || str==i || str==o || str==u)
     printf("Vowel");
     else if(str>0 && str<9)
