@@ -1,17 +1,15 @@
 #include <stdio.h>
 int main() {
-    int n, r, binary[32], i = 0;
-    scanf("%d", &n);
-    while (n > 0) {
-        binary[i] = n % 2;
-        n = n / 2;
-        i++;
+    //printf("%s", welcome());
+    int num;
+    int bit_size = sizeof(int)*8;
+    scanf("%d",&num);
+    int MSB_check = 1 << (bit_size-1);
+    if (num & MSB_check){
+        printf("Set");
     }
-    int j=i-1;
-    if(j==1)
-    printf("Set");
-    else
-    printf("Not Set");
-    
+    else{
+        printf("Not Set");
+    }
     return 0;
 }
