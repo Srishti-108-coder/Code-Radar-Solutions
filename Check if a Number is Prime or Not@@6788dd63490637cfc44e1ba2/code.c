@@ -2,16 +2,16 @@
 int main()
 {
     int n,x,count=0;
-    scanf("%d",&a);
+    scanf("%d",&n);
     for(x=1;x<=n;x++)
     {
-    if(n%x==0)
-    count++;
+        if(n%x==0)
+            count++;
     }
     if(count==2)
-    printf("Prime");
+        printf("Prime");
     else
-    printf("Not Prime");
+        printf("Not Prime");
 
     return 0;
 
