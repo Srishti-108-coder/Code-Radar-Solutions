@@ -21,9 +21,9 @@ int prime(int n)
     }
 
     if (c == 2) // A number is prime if it has exactly two divisors
-        printf("1\n"); // Prime
+        return 1; // Prime
     else
-        printf("0\n"); // Not prime
+        return 0; // Not prime
 
     return 0;
 }
