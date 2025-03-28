@@ -6,16 +6,16 @@ int main()
     printf("");
     scanf("%d",&n);
     prime(n);
+    return 0;
 }
 int prime(int n)
 {
     int x,c=0;
-    while(x<=n)
+    for(x=1;x<=n;x++)
     {
         if(n%x==0)
         c++;
     }
-    x++;
     if(c==2)
     printf("1");
     else
