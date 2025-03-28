@@ -10,17 +10,16 @@ int main()
 int prime(int n)
 {
     int x,c=0;
-    for(x=1;x<=n;x++)
+    while(x<=n)
     {
         if(n%x==0)
         c++;
     }
+    x++;
     if(c==2)
     printf("1");
     else
     printf("0");
 
     return 0;
-
-
 }
