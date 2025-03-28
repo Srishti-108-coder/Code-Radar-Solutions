@@ -9,7 +9,7 @@ int main()
 }
 int prime(int n)
 {
-    int x,n,c=0;
+    int x,c=0;
     for(x=1;x<=n;x++)
     {
         if(n%x==0)
