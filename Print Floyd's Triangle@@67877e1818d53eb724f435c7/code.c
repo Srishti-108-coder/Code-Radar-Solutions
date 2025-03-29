@@ -7,14 +7,11 @@ int main()
     for(i=1;i<=n;i++)
     {
         int num=1;
-        for(j=1;j<=n;j++)
+        for(j=1;j<=i;j++)
         {
-            if((i+j)>n)
-            printf("%d ",num);
-            else
-            printf(" ");
+            printf("%d",num);
             num++;
         }
-        printf("\n");
+        printf("\n";)
     }
 }
