@@ -1,27 +1,28 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,j,k;
+    int n, i, j;
     printf("");
-    scanf("%d",&n);
-    for(i=1;i<=n;i++)
+    scanf("%d", &n);
+    for(i = 1; i <= n; i++)
     {
-        int num=1;
-        for(j=n-1;j>=i;j--)
+        int num = 1;
+        for(j = 1; j <= n - i; j++)
         {
             printf(" ");
         }
-        for(k=1;k<i;k++)
+        for(j = 1; j <= i; j++)
         {
-            printf("%d",num);
+            printf("%d", num);
             num++;
         }
         num -= 2;
-        for(k=1;k<i;k++)
+        for(j = 1; j < i; j++)
         {
-            printf("%d",num);
+            printf("%d", num);
             num--;
         }
         printf("\n");
     }
+    return 0;
 }
