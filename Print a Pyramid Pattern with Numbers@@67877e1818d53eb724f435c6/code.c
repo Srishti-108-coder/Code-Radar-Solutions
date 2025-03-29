@@ -11,9 +11,9 @@ int main()
             printf(" ");
         }
         int num=1;
-        for(k=1;k<=(2*i-1);k++)
+        for(k=1;k<=i;k++)
         {
-            printf("%d ",num);
+            printf("%d",num);
             num++;
         }
         printf("\n");
