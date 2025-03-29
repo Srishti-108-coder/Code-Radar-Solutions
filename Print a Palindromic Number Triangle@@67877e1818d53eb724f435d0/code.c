@@ -11,13 +11,13 @@ int main()
         {
             printf(" ");
         }
-        for(k=1;k<=2*i-1;k++)
+        for(k=1;k<i;k++)
         {
             printf("%d",num);
             num++;
         }
         num -= 2;
-        for(k=1;k<=2*i-1;k++)
+        for(k=1;k<i;k++)
         {
             printf("%d",num);
             num--;
