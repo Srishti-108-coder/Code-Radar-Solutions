@@ -10,9 +10,10 @@ int main()
         printf("");
         scanf("%d",&a[i]);
     }
-    int r,s=0,sum=0;
+    int r,sum=0;
     for(i=0;i<n;i++)
     {
+        int s=0
         while(a[i]>0){
         r=a[i]%10;
         s=s+r;
