@@ -1,22 +1,25 @@
 #include<stdio.h>
 int main()
 {
-    int n,
+    int n;
     printf("");
     scanf("%d",&n);
-    int a[n],i;
+    int a[n],i,c=0;
     for(i=0;i<n;i++)
     {
         printf("");
         scanf("%d",&a[i]);
     }
-    int x,c=0,c1=0;
+    int x,c1=0;
     for(i=0;i<n;i++)
     {
+        if(a[i]>1)
+        {
         for(x=1;x<=a[i];x++)
         {
         if(a[i]%x==0)
         c++;
+        }
         }
         if(c==2)
         c1++;
