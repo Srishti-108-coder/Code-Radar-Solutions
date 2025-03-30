@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,c1,c2;;
+    int n,i,c1=0,c2=0;;
     printf("");
     scanf("%d",&n);
+    int a[n];
     for(i=0;i<n;i++)
     {
         printf("");
@@ -16,5 +17,5 @@ int main()
         if(a[i]%2==1)
         c2++;
     }
-    printf("%d %d",c1,c2)
+    printf("%d %d",c1,c2);
 }
