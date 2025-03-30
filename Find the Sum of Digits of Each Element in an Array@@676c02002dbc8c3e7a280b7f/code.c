@@ -10,7 +10,7 @@ int main()
         printf("");
         scanf("%d",&a[i]);
     }
-    int r,sum=0;
+    int r;
     for(i=0;i<n;i++)
     {
         int s=0;
@@ -19,8 +19,7 @@ int main()
         s=s+r;
         a[i]=a[i]/10;
         }
-        sum=sum+s;
+        printf("%d ",s);
     }
-    printf("%d ",sum);
 
 }
