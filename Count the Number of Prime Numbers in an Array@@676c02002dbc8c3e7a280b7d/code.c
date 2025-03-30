@@ -13,7 +13,7 @@ int main()
     int x;
     for(i=0;i<n;i++)
     {
-        int c=0
+        int c=0;
         if(a[i]>1)
         {
         for(x=1;x<=a[i];x++)
