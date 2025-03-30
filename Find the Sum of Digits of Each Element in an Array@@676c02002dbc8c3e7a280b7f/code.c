@@ -14,12 +14,15 @@ int main()
     for(i=0;i<n;i++)
     {
         int s=0;
-        while(a[i]>0){
+        while(a[i] != 0){
         r=a[i]%10;
         s=s+r;
         a[i]=a[i]/10;
         }
-        printf("%d ",s);
+        if(s<0)
+        printf("%d ",0-s);
+        else
+        printf("%d",s)
     }
 
 }
