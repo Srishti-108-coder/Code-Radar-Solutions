@@ -10,7 +10,7 @@ int main()
         printf("");
         scanf("%d",&a[i]);
     }
-    int g=0,s=a[0];
+    int g=a[0],s=a[0];
     for(i=0;i<n;i++)
     {
         if(a[i]>g)
