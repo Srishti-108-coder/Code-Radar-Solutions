@@ -11,9 +11,9 @@ int main()
         scanf("%d",&a[i]);
     }
     int g=a[0]*a[1];
-    for(i=0;i<n;i++)
+    for(i=0;i<n-1;i++)
     {
-        int p,s;
+        int p;
         p=a[i]*a[i+1];
         if(p>g)
         g=p;
