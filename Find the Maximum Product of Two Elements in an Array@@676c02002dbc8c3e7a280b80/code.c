@@ -10,17 +10,13 @@ int main()
         printf("");
         scanf("%d",&a[i]);
     }
+    int g=a[0]*a[1];
     for(i=0;i<n;i++)
     {
         int p,s;
         p=a[i]*a[i+1];
-        s=p;
-    }
-    int s[n],g;
-    for(i=0;i<n;i++)
-    {
-        if(s[i]>s[i+1])
-        g=s[i];
+        if(p>g)
+        g=p;
     }
     printf("%d",g);
 }
