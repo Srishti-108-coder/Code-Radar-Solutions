@@ -13,6 +13,8 @@ int main()
     {
         if(a[i]>=a[i-1] && a[i]>=a[i+1])
         printf("%d\n",a[i]);
+        else
+        printf("-1");
     }
     return 0;
 }
