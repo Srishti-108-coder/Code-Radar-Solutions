@@ -14,7 +14,7 @@ int main()
     {
         int p,s;
         p=a[i]*a[i+1];
-        s=p
+        s=p;
     }
     int s[n],g;
     for(i=0;i<n;i++)
