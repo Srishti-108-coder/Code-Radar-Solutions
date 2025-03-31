@@ -10,13 +10,13 @@ int main()
         printf("");
         scanf("%d",&a[i]);
     }
-    int p,s=0;
+    int p;
     for(i=1;i<n;i++)
     {
         if(a[i]<=a[i+1])
         p=a[i];
     }
-    if(p>s)
+    if(a[0]<p)
     printf("Sorted");
     else
     printf("Not Sorted");
