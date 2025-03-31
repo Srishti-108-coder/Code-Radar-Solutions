@@ -16,7 +16,7 @@ int main()
         if(a[i]<=a[i+1])
         p=a[i];
     }
-    if(p[i]>0)
+    if(p>s)
     printf("Sorted");
     else
     printf("Not Sorted");
