@@ -15,10 +15,10 @@ int main()
         for(j=i+1;j<n;j++)
         {
             if(a[i]==a[j])
-            printf("%d",a[i]);
-            else
-            printf("-1");
+            s=a[i];
         }
+        printf("%d",s);
     }
+    printf("-1");
     return 0;
 }
