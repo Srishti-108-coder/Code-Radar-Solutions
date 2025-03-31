@@ -15,8 +15,10 @@ int main()
     {
         if(a[i]<=a[i+1])
         p=a[i];
+        else
+        printf("Not Sorted");
     }
-    if(a[0]<p)
+    if(a[0]<=p)
     printf("Sorted");
     else
     printf("Not Sorted");
