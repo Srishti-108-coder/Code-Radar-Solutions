@@ -12,12 +12,12 @@ int main()
     }
     for(i=0;i<n-1;i++)
     {
+        int s;
         for(j=i+1;j<n;j++)
         {
             if(a[i]==a[j])
-            s=a[i];
+            printf("%d",a[i])
         }
-        printf("%d",s);
     }
     printf("-1");
     return 0;
