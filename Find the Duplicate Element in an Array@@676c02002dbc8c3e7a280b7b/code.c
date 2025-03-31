@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,j;
+    int n,i,j,duplicatefound=0;
     printf("");
     scanf("%d",&n);
     int a[n];
@@ -17,8 +17,12 @@ int main()
         {
             if(a[i]==a[j])
             printf("%d",a[i]);
+            duplicatefound = 1;
+            return 0;
         }
     }
+    if(!duplicatefound)
+    printf("-1");
 
     return 0;
 }
