@@ -11,7 +11,7 @@ int main() {
     if ((num1 ^ num2) >= 0) {
         printf("Same Sign \n");
     } else {
-        printf("opposite sign \n");
+        printf("Different sign \n");
     }
 
     return 0;
