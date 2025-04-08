@@ -7,6 +7,7 @@ int main() {
     printf("");
     scanf("%u", &number);
 
+    // Perform bitwise NOT
     flippedNumber = ~number;
 
     printf("%u\n", flippedNumber);
