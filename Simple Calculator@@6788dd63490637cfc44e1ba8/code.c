@@ -34,8 +34,6 @@ int main() {
                 printf("Error: Division by zero is not allowed.\n");
             }
             break;
-        default:
-            printf("Invalid \n");
     }
 
     return 0;
