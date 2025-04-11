@@ -1,16 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    unsigned int number, flippedNumber;
+    int num, flipped;
 
-    // Input the number
     printf("");
-    scanf("%u", &number);
+    scanf("%d", &num);
 
-    // Perform bitwise NOT
-    flippedNumber = ~number;
+    flipped = ~num; 
 
-    printf("%u\n", flippedNumber);
+    printf("%d\n", flipped);
 
     return 0;
 }
